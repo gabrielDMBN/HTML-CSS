@@ -113,6 +113,50 @@ section{
         padding: 20px;
         color: #ffffffdc;
     }
-
     
+}
+
+.secao2{
+    
+    align-items: center;
+
+    .tituloSecao{
+        text-align: center;
+        font-size: 8vw;
+        font-weight: 500;
+    }
+
+    .divCards{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        width: 80%;
+ 
+    }
+
+    .card1{
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 24px;
+        width: 32%;
+        height: 50%;
+
+        img{
+           margin-bottom: 15px; 
+        }
+
+        h3{
+            margin-bottom: 10px;
+        }
+    }
+
+    .branco{
+        background-color: rgba(255, 255, 255, 0.1);
+      
+    }
+
 }
