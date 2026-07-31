@@ -164,11 +164,15 @@ section{
     .banners1{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
         justify-content: center;
+        gap : 10px;
         
         
         img{
-            filter:saturate(0 );
+            filter:saturate(0);
+            width: 100%;
         }
 
         img:hover{
