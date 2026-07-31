@@ -117,13 +117,14 @@ section{
 }
 
 .secao2{
-    
+
     align-items: center;
+    justify-content: center;
 
     .tituloSecao{
         text-align: center;
         font-size: 8vw;
-        font-weight: 500;
+        font-weight: 400;
     }
 
     .divCards{
@@ -135,6 +136,7 @@ section{
         gap: 10px;
 
         width: 80%;
+        margin-bottom: 40px;
  
     }
 
@@ -159,4 +161,23 @@ section{
       
     }
 
+    .banners1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+        img{
+            filter:saturate(0 );
+        }
+
+        img:hover{
+            filter:saturate(1);
+            transition: 0.3s;
+        }
+    }
+
+    
+
+    
 }
