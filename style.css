@@ -5,6 +5,18 @@
 
 }
 
+a{
+    color: inherit;
+    opacity: 0.8;
+    text-decoration: none;
+
+}
+
+a:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+
 body{
     background-color: #030013;
     color: #ffffffdc;
@@ -171,6 +183,8 @@ section{
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        margin-top: 60px;
+
         gap : 10px;
         
         
