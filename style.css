@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #030013;
+    color: #ffffffdc;
+    font-family: 'Poppins';
+
+}
+
+p{
+    opacity: 0.8;
+}
+
+button{
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-size: 16px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+button:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+header{
+    display: flex;
+    padding: 4%;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 99 ;
+
+    ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    }   
+
+}
+
+.logotipo{
+    width: 60px;
+    height: 60px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.secao1{
+    background-image: url("assets/bg1.png");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 13vw;
+        margin-bottom: 10%;
+        color: rgba(119, 119, 119, 1);
+        mix-blend-mode: color-dodge;
+    }
+
+    .conteudoPrincipal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+
+        h1{
+            text-align: center;
+            font-size: 3vw;
+        }
+    .divBotoes{
+        display: flex;  
+        gap: 10px;    
+        margin-top: 10px;
+        }
+    }
+
+    .botaoPrimario{
+        background-color: rgba(255, 255, 255, 0.911);
+        gap: 10px;
+        padding: 6px 6px 6px 20px;
+    }
+
+    .botaoSecundario{
+        background-color: rgba(255, 255, 255, 0.1);
+        
+        padding: 20px;
+        color: #ffffffdc;
+    }
+
+    
+}
